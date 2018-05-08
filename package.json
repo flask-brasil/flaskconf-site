@@ -1,0 +1,30 @@
+{
+  "name": "flaskconf-site",
+  "version": "1.0.0",
+  "description": "Primeira Conferência Flask da Comunidade Python do brasil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flask-brasil/flaskconf-site.git"
+  },
+  "keywords": [
+    "python",
+    "flask",
+    "conference",
+    "brasil"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flask-brasil/flaskconf-site/issues"
+  },
+  "homepage": "https://github.com/flask-brasil/flaskconf-site",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.4.1"
+  }
+}
