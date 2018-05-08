@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <div class="main">
+      {% include welcome.html %}
+
+      {% include about.html %}
+
+      <!-- ADICIONAR AS TAGS DE INCLUDE DE SPEAKERS.HTML, SCHEDULE.HTML E LOCATION.HTML -->
+      {% include location.html %}
+
+      {% include sponsors.html %}
+
+      {% include volunteers.html %}
+
+      {% include footer.html %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

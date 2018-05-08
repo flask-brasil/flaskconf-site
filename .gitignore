@@ -1,3 +1,16 @@
+# custom
+node_modules/
+package-lock.json
+.DS_Store
+_site/
+.sass-cache/
+
+# jekyll
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
