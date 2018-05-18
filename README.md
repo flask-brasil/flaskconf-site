@@ -43,3 +43,4 @@ $ bundle exec jekyll build
 
 ### Credits
 This project was created by [Designa](http://www.designa.com.br) for Python Brazil [11]
+
