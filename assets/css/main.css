@@ -2729,15 +2729,25 @@
 			padding-left: 0;
 		}
 
+		ul.actions li a {
+			display: block;
+		}
+
+		   ul.actions li a.highlight {
+			  background-color: #bae8ba;
+		   }
+
 			ul.actions li {
-				display: inline-block;
-				padding: 0 1em 0 0;
+				/* display: inline-block; */
+				padding: 0 1em 1em 0;
 				vertical-align: middle;
+				width: 100%;
+				padding-right: 0;
 			}
 
-				ul.actions li:last-child {
+				/* ul.actions li:last-child {
 					padding-right: 0;
-				}
+				} */
 
 			ul.actions.small li {
 				padding: 0 0.5em 0 0;
