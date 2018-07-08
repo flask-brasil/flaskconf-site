@@ -2133,6 +2133,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	p.no_margin {
+		margin: 0 0 0 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
 		font-family: "Roboto Slab", serif;
