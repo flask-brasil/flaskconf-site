@@ -4076,3 +4076,24 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+
+
+
+// logo de patrocinadores:
+.content.sponsors .sponsor {
+	height: 200px;      /* equals max image height */
+    width: 360px;		/* equals max image width */
+    white-space: nowrap;
+    display: inline;
+    text-align: center;
+    margin: 1em 0;
+	border: 1px solid red !important;
+}
+
+.content.sponsors img.sponsor-logo {
+	vertical-align: middle;
+	max-height: 200px;
+    max-width: 360px;
+
+}
