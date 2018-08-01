@@ -2903,15 +2903,24 @@
 				background-color: rgba(230, 235, 237, 0.25);
 			}
 
+			table tbody tr.yellow {
+				background-color: lightyellow;
+			}
+			table tbody tr.green {
+				background-color: lightgreen;
+			}
+
 		table td {
 			padding: 0.75em 0.75em;
+			color: #314D6E;
 		}
 
 		table th {
-			color: #3d4449;
+			background-color: #314D6E;
+			color: #ffffff;
 			font-size: 0.9em;
 			font-weight: 600;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0.45em 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
 
